@@ -47,5 +47,3 @@ FileHandle = FindFile(filename)
 lines = GetTextContents(FileHandle)
 searchtext = GetSearchText()
 SearchForText(searchtext, lines)
-
-print(lines)
